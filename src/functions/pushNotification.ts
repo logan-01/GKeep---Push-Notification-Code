@@ -192,6 +192,6 @@ export const pushNotificationListener = () => {
     };
 
     // Optionally save to DB
-    // saveLastStates();
+    saveLastStates();
   });
 };
